@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.container, .gif-container {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.yes {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.no {
+  background-color: #f44336;
+  color: white;
+}
+
+.gif-container > img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
